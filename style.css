@@ -1,0 +1,59 @@
+body{
+    background-color: #0e7e12;    
+}
+
+.card{
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 5%;
+    position: relative;
+    width:400px; /*Hacerlos modificables*/
+    height: 550px; /*Hacerlos modificables*/
+}
+.number{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    align-content: center;
+    font-size: 15rem;
+}
+.suit{
+    width:80px;
+    height: 80px;
+    position: absolute;
+    z-index: 9999;    
+}
+.spade{
+    
+    background-image: url(/Suit/1.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.club{
+    background-image: url(/Suit/3.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.heart{
+    background-image: url(/Suit/2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.diamond{
+    background-image: url(/Suit/4.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#suit_arriba{
+    top: 45px;
+    left: 18px;
+}
+#suit_abajo{
+    bottom: 45px;
+    right: 18px;
+}
